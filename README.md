@@ -1,2 +1,22 @@
-# test
-99
+# umi project
+
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```
+
+
+## build
+
+```
+yarn build
+```

@@ -1,0 +1,33 @@
+/* Switch.css */
+
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.button {
+  width: 50px;
+}
+
+.track {
+  flex-grow: 1;
+  height: 20px;
+  background-color: #ddd;
+  position: relative;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background-color: red;
+  transition: left 0.3s;
+}
+
+.slider.right {
+  left: 50%;
+}

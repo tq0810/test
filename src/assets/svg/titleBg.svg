@@ -1,0 +1,11 @@
+<svg width="495" height="104" viewBox="0 0 495 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M86.6903 47.049C86.6903 27.2828 70.123 11.2036 49.6166 11.2036C29.1103 11.2036 12.543 27.2828 12.543 47.049C12.543 66.8153 29.1103 82.8945 49.6166 82.8945C70.123 82.8945 86.6903 66.8153 86.6903 47.049Z" stroke="white" strokeWidth="2"/>
+<line x1="48.6169" y1="14.7382" x2="48.6169" y2="-3.23826e-05" stroke="white" strokeWidth="2"/>
+<line x1="48.6172" y1="94.0977" x2="48.6172" y2="79.3595" stroke="white" strokeWidth="2"/>
+<line x1="83.0039" y1="46.049" x2="98.2334" y2="46.049" stroke="white" strokeWidth="2"/>
+<line x1="1" y1="46.049" x2="16.2295" y2="46.049" stroke="white" strokeWidth="2"/>
+<line x1="62.0098" y1="47.0946" x2="37.2246" y2="47.0946" stroke="#754FFE" strokeWidth="2"/>
+<line x1="49.5706" y1="59.4404" x2="49.5706" y2="34.6553" stroke="#754FFE" strokeWidth="2"/>
+<path d="M75.832 72.4482L105.384 102H495.749" stroke="white" strokeWidth="2" stroke-dasharray="11 11"/>
+<rect x="1.5" y="182.5" width="1799" height="223" stroke="url(#paint0_linear_46_271)"/>
+</svg>

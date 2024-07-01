@@ -1,0 +1,115 @@
+.topSwitch {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 50%;
+  font-family: 'Candal';
+  align-content: center;
+  position: relative;
+  height: 30px;
+}
+
+@keyframes changeyans {
+  from {
+    background-color: #f33000;
+  }
+
+  to {
+    background-color: transparent;
+  }
+}
+
+@keyframes changeyans2 {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: #f33000;
+  }
+}
+
+.topSwitchItem {
+  color: white;
+  background-color: transparent;
+  font-weight: 100;
+  font-size: 13px;
+  // padding: 2%;
+  margin: 1% 1% 1% 1%;
+  box-sizing: content-box;
+  width: 50%;
+  text-align: center;
+  border-radius: 2px;
+  height: 30px;
+  align-content: center;
+  border: none;
+}
+
+.topSwitchItemSelect {
+  background-color: #f33000;
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+  // padding: 2%;
+  margin: 1% 1% 1% 1%;
+  box-sizing: content-box;
+  width: 50%;
+  text-align: center;
+  border-radius: 2px;
+  height: 30px;
+  align-content: center;
+  animation-name: changeyans2;
+  animation-duration: 0.5s;
+  border: none;
+}
+
+.sliderLeft {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  transition: left 0.3s;
+  height: 30px;
+}
+
+.sliderRight {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  transition: left 0.3s;
+  left: 50%;
+  height: 30px;
+}
+
+.countAnimation {
+  position: absolute;
+  left: 42%;
+  top: 43%;
+  transform: translateX(-32%);
+  animation: moveUp 1.5s forwards;
+  color: white;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+}
